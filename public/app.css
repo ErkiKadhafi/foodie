@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLING FOR EZ STYLING UHUY */
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: start;
+}
+.items-center {
+    align-items: center;
+}
+.self-center {
+    align-self: center;
+}
+.mb-2 {
+    margin-bottom: 1rem;
+}
+.mt-2 {
+    margin-top: 1rem;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
+.text-right {
+    text-align: right;
+}
+
+.index-title {
+    padding: 1.2rem 0;
+}
+.index-title h3 {
+    font-size: 2rem;
+}
+.index-title h4 {
+    font-size: 1.5rem;
+}
+.image img {
+    height: 4rem;
+}
+.image {
+    margin-right: 0.5rem;
+}
+
+.index-container {
+    width: 85%;
+    margin: auto;
+}
+.index-container .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1.5rem;
+}
+.index-container .card {
+    background: rgb(255, 195, 85);
+    padding: 1rem 1rem;
+}
+.card img {
+    height: 11rem;
+}
+.card .link {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card .harga {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.item-container {
+    margin: auto;
+    padding: 2rem 1rem;
+    width: 42%;
+}
+.item-container img {
+    height: 23rem;
+}
+.item-container .description {
+    font-size: 1.5rem;
+    font-family: "Lucida Handwriting", cursive;
+}
+.item-container .cathegory {
+    font-size: 1.3rem;
+    color: rgb(143, 142, 142);
+}
